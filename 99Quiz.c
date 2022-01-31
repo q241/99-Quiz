@@ -95,7 +95,7 @@ void quiz_menu(char Anames[NUM_STRINGS][MAX_LENGTH], char Aexplanations[NUM_STRI
 	   printf("[3] %s\n", Aexplanations[answer]);
 	}
 	// Prompt the user for a reponse and also display current point total
-        printf("\n\n Answer? [ Points = %d ] ", points);
+        printf("\n\n [ Points = %d ] Enter a number => ", points);
 	scanf("%d", &user_choice);
 
         if (user_choice == correct_choice) {  // Their choice was the correct answer
