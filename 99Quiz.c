@@ -20,12 +20,13 @@
  * reached the Quiz ends.
  *
  * - Maurice V. 
- * - version 1.0 [ January 30, 2022 ]
- *
+ * - version 1.1 [ Jumada al-Thani 28 (January 31, 2022) ] 
+ *   
 */
 
 #include <stdio.h>
 #include <time.h>
+#include <stdlib.h>
 
 #define MAX_LENGTH 300  // Maximum length of a Name or Explanation
 #define NUM_STRINGS 99  // Total number of Names and Explanations
@@ -50,7 +51,7 @@ void quiz_menu(char Anames[NUM_STRINGS][MAX_LENGTH], char Aexplanations[NUM_STRI
 			      // of 0-87 which will correspond to a name in the 
 			      // Anames array.
 	
-	choice_b = rand() % 88;  // A decoy use to construct the multiple choice 
+	choice_b = rand() % 88;  // A decoy used to construct the multiple choice 
 	                         // questions.  A wrong answer.
 	choice_c = rand() % 88;  // "     "             "
 	
@@ -218,7 +219,7 @@ int main() {
    // of the name at Allah_names[0].
 
    char Allah_exp[NUM_STRINGS][MAX_LENGTH] = { {"The Lord and Cherisher"},
-	                                          {"The One and Only deity"},
+	                                          {"The One and Only deity Who deserves to be worshipped"},
 						  {"The King"},
                                                   {"The Master and Owner"},
                                                   {"The One to Whom belongs the dominion"},
