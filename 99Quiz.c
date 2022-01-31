@@ -63,7 +63,7 @@ void quiz_menu(char Anames[NUM_STRINGS][MAX_LENGTH], char Aexplanations[NUM_STRI
 		choice_b = rand() % 88;
 		choice_c = rand() % 88;
         }
-        printf("\t\t\t-== 99 Quiz v1.0 ==-");
+        printf("\t\t\t-== 99 Quiz v1.1 ==-");
 	printf("\033[0;33m");    // Changes the text color
         printf("\n\nYou have %d strike(s)!\n\n", strikes);
         printf("\033[0m");       // Changes the text color back to default
